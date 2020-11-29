@@ -1,0 +1,218 @@
+.App {
+  display: flex;
+}
+
+.sidebar {
+  width: 14rem;
+  height: 100vh;
+  background-color: #000000;
+  padding: 1.5rem 0.75rem;
+}
+
+.spotify-logo--text {
+  color: white;
+  width: 131px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  padding-left: 1rem;
+}
+
+.menu,
+.playlistsMenu {
+  margin-top: 1.5rem;
+}
+
+.menu .menu-item {
+  color: #b3b3b3;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  font-size: 10pt;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.menu .menu-item.menu-item--active {
+  background-color: #282828;
+  color: #fff;
+}
+
+.menu .menu-item:hover {
+  color: #fff;
+}
+
+.menu .menu-item .menu-itemIcon {
+  margin-right: 1rem;
+}
+
+.playlistMenu {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+.playlistMenuTitle {
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.playlistMenuItem {
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.createPlaylist-icon {
+  background: #fff;
+  width: 26px;
+  height: 26px;
+  padding: 4px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  fill: #000;
+  margin-right: 1rem;
+}
+
+.playlistMenu .playlistMenuItem:hover {
+  color: #fff;
+}
+
+.main {
+  width: 76rem;
+  box-sizing: border-box;
+}
+
+.main .header {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #090909;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .header .headerLeft {
+  color: #fff;
+}
+
+.headerLeft {
+  width: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.headerRight {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.button {
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  font-size: 10pt;
+}
+
+.button:hover {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.signin-button {
+  color: #000;
+  background-color: #fff;
+}
+
+.body {
+  background-color: #131313;
+  height: 93.6vh;
+  padding: 1rem 2rem;
+}
+
+.headerBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerBody-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 17pt;
+  cursor: pointer;
+}
+
+.headerBody-title:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+.headerBody-seeAll {
+  color: #b3b3b3;
+  display: flex;
+  align-items: flex-end;
+  font-size: 10pt;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.headerBody-seeAll:hover {
+  text-decoration: underline;
+  text-decoration-color: #b3b3b3;
+}
+
+.mainBody {
+  padding: 2rem 1rem;
+  display: flex;
+}
+
+.cardItem {
+  background-color: #181818;
+  flex: 2;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cardItem:hover {
+  background-color: #282828;
+}
+
+.cardItem img {
+  width: 100%;
+}
+
+.cardItem-title {
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 11pt;
+}
+
+.cardItem-description {
+  color: #b3b3b3;
+  margin-top: 0.25rem;
+  font-size: 9pt;
+}
